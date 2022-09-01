@@ -1,0 +1,44 @@
+body {
+    background: #bdc3c7;
+    color: white;
+    background: -webkit-linear-gradient(to right, #283f87, #707b2c);
+    background: linear-gradient(to right, #283f87, #707b2c);
+}
+
+h1 {
+    text-align: center;
+    width: 30%;
+    margin: 20px auto;
+    padding: 12px;
+    border: 8px solid #d8ff2c;
+    border-radius: 35px;
+    background-color: black;
+}
+
+form {
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    color: white;
+    background: linear-gradient(333deg, rgba(168, 175, 49, 1) 16%, rgba(51, 143, 7, 1) 50%, rgba(30, 36, 114, 1) 100%);
+    font-size: 20px;
+}
+
+.label{
+    font-size: 30px;
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 25%;
+}
